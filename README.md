@@ -56,11 +56,11 @@ Raw data is available in the `data/` folder.  Command lines used to generate the
 
 | Number of contigs | 50x | 100x | 50x-drop-10x | 50x-drop-5x |
 | :-------- | :--------: | :------: |:------: |:------: |
-| Canu v1.8 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+)| 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
-| Flye v2.4.2 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+)| 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+)  |
-| Ra v07364a1 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
-| Unicycler v0.4.7 | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
-| Wtdbg2 v2.4 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
+| Canu v1.8 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
+| Flye v2.4.2 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) |
+| Ra v07364a1 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
+| Unicycler v0.4.7 | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
+| Wtdbg2 v2.4 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
 
 ## Caveats 
 
