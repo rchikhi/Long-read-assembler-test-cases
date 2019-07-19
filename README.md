@@ -56,7 +56,9 @@ Raw data is available in the `data/` folder.  Command lines used to generate the
 
 ## Results
 
-| Number of contigs | 50x | 100x | 50x-drop-10x | 50x-drop-5x |
+The following table reports the **number of contigs** for each assembler, for each test case.
+
+| Dataset | 50x | 100x | 50x-drop-10x | 50x-drop-5x |
 | :-------- | :--------: | :------: |:------: |:------: |
 | Canu v1.8 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
 | Flye v2.4.2 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) |
