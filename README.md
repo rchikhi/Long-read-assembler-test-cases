@@ -18,13 +18,13 @@ A bacterial genome, 3.5 Mbp, having repeat of length around 16 kbp (according to
 
 Exactly the same assemblers, versions and commands as https://github.com/rrwick/Long-read-assembler-comparison/#assemblers-and-commands were used. Command lines are in `scripts/run_assemblers.sh`.
 
-Reads were simulated differently, though. We used (PaSS)[https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2901-7], a recently-published PacBio Sequel read simulator.
+Reads were simulated differently, though. We used [PaSS](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2901-7), a recently-published PacBio Sequel read simulator.
 
-### Test cases
+### Test cases
 
-Four test cases:
+Four test datasets:
 
-- 50x coverage ("50x" column)
+- one with 50x coverage ("50x" column)
 
   Here is a visualization of the reads alignment to the reference genome (using the Tablet software).
 
@@ -38,7 +38,9 @@ Four test cases:
 
 - 50x coverage with a simulated coverage drop to 10x at a repeat-free location, position 420,000 bp in the reference, ("50x-drop-10x" column)
 
-  from ![50x_no_drop.png](images/50x_no_drop.png)
+  from 
+
+  ![50x_no_drop.png](images/50x_no_drop.png)
 
   to
 
