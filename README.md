@@ -3,7 +3,7 @@
 
 ## Introduction
 
-A very recent [long-read assembly benchmark](https://github.com/rrwick/Long-read-assembler-comparison) evaluates how robust assemblers are to artifacts present in reads, using a bacterial genome as a test case. Here we take a different but related standpoint. We provide a set of "supposedly easy" test cases for long-read genome assemblers. Can assemblers *at least* assemble them?
+A very recent [long-read assembly benchmark](https://github.com/rrwick/Long-read-assembler-comparison) evaluates how robust assemblers are to sequencing artifacts that happen in the reads, using a bacterial genome as a test case. Here we take a different but related standpoint. We provide a set of "supposedly easy" test cases for long-read genome assemblers. Can assemblers *at least* assemble them?
 
 This page is intended 1) to users, in order to give some rough idea of the performance each tool; and 2) to assembly tool developers, in order to highlight situations where they perform sub(optimally.
 
@@ -54,15 +54,15 @@ Raw data is available in the `data/` folder.  Command lines used to generate the
 
 | Number of contigs | 50x | 100x | 50x-drop-10x | 50x-drop-5x |
 | :-------- | :--------: | :------: |:------: |:------: |
-| Canu v1.8 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+)|2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
-| Flye v2.4.2 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+)|1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+)  |
-| Ra v07364a1 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
+| Canu v1.8 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+)| 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
+| Flye v2.4.2 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+)| 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+)  |
+| Ra v07364a1 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
 | Unicycler v0.4.7 | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
-| Wtdbg2 v2.4 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
+| Wtdbg2 v2.4 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+)  |
 
 ## Caveats 
 
-This is certainly not an extensive benchmark of  assemblers. There is only a single dataset (bacteria) and a single metric (number of contigs). It should be seen as an incentive for tool developers to make sure simple examples are treated correctly.
+This is certainly not an extensive benchmark of  assemblers. There is only a single (bacterial) dataset and a single metric (number of contigs). It should be seen as an incentive for tool developers to make sure simple examples are treated correctly.
 
 I am unsure whether I'll keep the last test case (the drop to 5x coverage). It is perhaps a bit too much to ask assemblers to assembly regions that have 5x coverage.
 
