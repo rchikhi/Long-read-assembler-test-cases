@@ -5,7 +5,9 @@
 
 A very recent [long-read assembly benchmark](https://github.com/rrwick/Long-read-assembler-comparison) evaluates how robust assemblers are to sequencing artifacts that happen in the reads, using a bacterial genome as a test case. Here we take a different but related standpoint. We provide a set of "supposedly easy" test cases for long-read genome assemblers. Can assemblers *at least* assemble them?
 
-This page is intended 1) to users, in order to give some rough idea of the performance each tool; and 2) to assembly tool developers, in order to highlight situations where they perform sub(optimally.
+This page is intended 1) to users, in order to give some rough idea of the performance each tool; and 2) to assembly tool developers, in order to highlight situations where they perform sub-optimally.
+
+This project was motivated by [this talk](http://rayan.chikhi.name/pdf/2019-july-19-cgsi.pdf) at CGSI 2019.
 
 ## Methods
 
@@ -64,11 +66,11 @@ Raw data is available in the `data/` folder.  Command lines used to generate the
 
 ## Caveats 
 
-This is certainly not an extensive benchmark of  assemblers. There is only a single (bacterial) dataset and a single metric (number of contigs). It should be seen as an incentive for tool developers to make sure simple examples are treated correctly.
+This is certainly not an extensive assembly benchmark. There is only a single (bacterial) dataset and a single metric (number of contigs). It should be seen as an incentive for tool developers to make sure simple examples are treated adequately.
 
-I am unsure whether I'll keep the last test case (the drop to 5x coverage). It is perhaps a bit too much to ask assemblers to assembly regions that have 5x coverage.
+I am unsure whether I'll keep the last test case (the drop to 5x coverage). It is perhaps a bit too much to ask, i.e. assemble regions that have 5x coverage.
 
-Regarding updates: please submit a pull request if you would like to add/modify an assembler in the table.
+Regarding updates to this benchmark: they are welcome. Please submit a pull request if you would like to add/modify an assembler in the table.
 
 ## Acknowledgements
 
