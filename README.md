@@ -20,6 +20,8 @@ A bacterial genome, 3.5 Mbp, having repeat of length around 16 kbp (according to
 
 Exactly the same assemblers, versions and commands as https://github.com/rrwick/Long-read-assembler-comparison/#assemblers-and-commands were used. Command lines are in `scripts/run_assemblers.sh`.
 
+Miniasm was subsequently added.
+
 Reads were simulated differently, though. We used [PaSS](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2901-7), a recently-published PacBio Sequel read simulator.
 
 ### Test cases
@@ -62,9 +64,10 @@ The following table reports the **number of contigs** for each assembler, for ea
 | :-------- | :--------: | :------: |:------: |:------: |
 | Canu v1.8 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
 | Flye v2.4.2 | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) |
-| Ra v07364a1 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
+| Ra 07364a1 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
 | Unicycler v0.4.7 | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
 | Wtdbg2 v2.4 | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 3 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) | 2 ![FF8C00](https://placehold.it/15/FF8C00/000000?text=+) |
+| Miniasm cdcb49d | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) | 1 ![#00DD00](https://placehold.it/15/00DD00/000000?text=+) |
 
 ## Caveats 
 
